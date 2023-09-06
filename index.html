@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactive Monkey Login Panel</title>
+
+    <!-- CSS Link -->
+    <link rel="stylesheet" href="style.css">
+    <!-- CSS Link -->
+</head>
+<body>
+
+    <div class="container">
+        <div class="monkeyLogin">
+            <div class="monkey" id="monkeyHand">
+                <img id="hands" src="images/hands.png" />
+            </div>
+
+            <div class="formSize">
+                <form class="form">
+                    <div>
+                        <input type="email" id="mail" onclick="openEye()" class="inputField" placeholder="Email" autocomplete="off" />
+                    </div>
+
+                    <div>
+                        <input type="password" id="pass" onclick="closeEye()" class="inputField" placeholder="Password" />
+                    </div>
+
+                    <div>
+                        <input type="submit" class="button" value="L O G I N" />
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <!-- Javascript Link -->
+    <script src="script.js"></script>
+    <!-- Javascript Link -->
+</body>
+</html>
